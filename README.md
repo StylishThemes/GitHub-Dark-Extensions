@@ -1,6 +1,9 @@
-GitHub-Dark-Extensions<p align="center">
+<p align="center">
   <img alt="githubdark-logo" src="https://cdn.jsdelivr.net/gh/StylishThemes/logos@master/github.dark/githubdark-mini.svg" width="580">
+  <h1 align="center">EXTENSIONS</h1>
   <br>
+</p>
+<p align="center">
   <a href="https://github.com/StylishThemes/GitHub-Dark-Extensions/tags">
     <img src="https://img.shields.io/github/tag/StylishThemes/GitHub-Dark-Extensions.svg?label=version&style=flat" alt="Version">
   </a>
@@ -18,10 +21,6 @@ GitHub-Dark-Extensions<p align="center">
   </a>
 </p>
 <h2 align="center">Your eyes will&nbsp;:heart:&nbsp;you.</h2>
-
-## Preview
-
-![Preview of GitHub Dark Extensions](./images/screenshots/after_blue.png)
 
 ## Installation
 
@@ -48,8 +47,8 @@ Install [Stylus](https://add0n.com/stylus.html) for either [Firefox](https://add
 
 If you would like to contribute to this repository, please...
 
-1. 👓 Read the [contribution guidelines](.CONTRIBUTING.md).
-1. [![fork](https://user-images.githubusercontent.com/136959/42383736-c4cb0db8-80fd-11e8-91ca-12bae108bccc.png) Fork](https://github.com/StylishThemes/GitHub-Dark/fork) or [![cloud-download](https://user-images.githubusercontent.com/136959/42401932-9ee9cae0-813d-11e8-8691-16e29a85d3b9.png) download](https://github.com/StylishThemes/GitHub-Dark/archive/master.zip) this repository.
+1. 👓 Read the [contribution guidelines](./CONTRIBUTING.md).
+1. [![fork](https://user-images.githubusercontent.com/136959/42383736-c4cb0db8-80fd-11e8-91ca-12bae108bccc.png) Fork](https://github.com/StylishThemes/GitHub-Dark-Extensions/fork) or [![cloud-download](https://user-images.githubusercontent.com/136959/42401932-9ee9cae0-813d-11e8-8691-16e29a85d3b9.png) download](https://github.com/StylishThemes/GitHub-Dark/archive/master.zip) this repository.
 1. 👌 Create a pull request!
 
 ## Development

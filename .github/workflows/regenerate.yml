@@ -1,0 +1,29 @@
+name: regenerate
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+      - run: make deps
+      - run: make generate
+      - run: |
+          if [[ $(git status --porcelain --untracked-files=no) ]]; then
+            make test
+            git fetch --unshallow --quiet --tags
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "automated regeneration"
+            make patch
+          else
+            echo "Nothing to commit"
+          fi

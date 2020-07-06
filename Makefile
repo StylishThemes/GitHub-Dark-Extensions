@@ -25,9 +25,6 @@ generate: node_modules
 perfectionist: node_modules
 	yarn -s run perfectionist github-dark-extensions.css github-dark-extensions.css --indentSize 2 --maxAtRuleLength 250
 
-themes: node_modules
-	node tools/themes.js
-
 update: node_modules
 	yarn -s run updates -cu
 	yarn -s run rimraf node_modules

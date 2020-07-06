@@ -1,4 +1,4 @@
-# Contributing to GitHub-Dark
+# Contributing to GitHub Dark Extensions
 
 1. [Getting Involved](#getting-involved)
 2. [How To Report style issues](#how-to-report-style-issues)
@@ -86,7 +86,7 @@ Don't include version bumps with your contribution, all releases are handled int
 
 ## Getting Started
 
-* [Download](https://github.com/StylishThemes/GitHub-Dark/archive/master.zip), [fork](https://github.com/StylishThemes/GitHub-Dark/fork) or clone this repository.
+* [Download](https://github.com/StylishThemes/GitHub-Dark-Extensions/archive/master.zip), [fork](https://github.com/StylishThemes/GitHub-Dark/fork) or clone this repository.
 
 First, make sure you have these installed:
 

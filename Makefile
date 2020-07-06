@@ -10,7 +10,7 @@ node_modules: yarn.lock
 
 lint: node_modules
 	yarn -s run eslint --color .
-	yarn -s run stylelint --color github-dark-extensions.css themes/src
+	yarn -s run stylelint --color github-dark-extensions.css
 
 authors:
 	bash tools/authors.sh

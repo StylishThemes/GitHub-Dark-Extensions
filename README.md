@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/github/stars/StylishThemes/GitHub-Dark-Extensions.svg?style=flat" alt="Stars">
   </a>
   <a href="https://github.com/StylishThemes/GitHub-Dark-Extensions/network">
-    <img src="https://img.shields.io/github/forks/StylishThemes/GitHub-Dark.svg?style=flat" alt="Forks">
+    <img src="https://img.shields.io/github/forks/StylishThemes/GitHub-Dark-Extensions.svg?style=flat" alt="Forks">
   </a>
   <a href="https://david-dm.org/StylishThemes/GitHub-Dark-Extensions?type=dev">
     <img src="https://img.shields.io/david/dev/StylishThemes/GitHub-Dark-Extensions.svg?label=devDependencies&style=flat" alt="devDependencies">

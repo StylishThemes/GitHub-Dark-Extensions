@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const {readFile, readdir} = require("fs").promises;
+const {readFile} = require("fs").promises;
 const fastGlob = require("fast-glob");
 const {writeFile, exit} = require("./utils");
 
@@ -41,8 +41,8 @@ function replaceVars(css) {
 }
 
 async function main() {
-  let meta = await readFile(files.template, "utf8");
-  let css = await readFile(files.source, "utf8")
+  const meta = await readFile(files.template, "utf8");
+  let css = await readFile(files.source, "utf8");
   css = replaceForUsercss(css);
 
   css = replaceVars(`${meta}${css}`);
